@@ -1,0 +1,58 @@
+//dias da semana
+var semana = new Array("Domingo","Segunda-feira","Terça-feira","Quarta-feira","Quinta-feira",
+"Sexta-feira","Sábado");
+
+console.log ("Dias da semana");
+for (var dia in semana){
+    console.log(semana[dia]);
+}
+
+//questão 22
+
+const calculaFatorial = n => {
+    if (n === 0) {
+        return 1;
+    } else {
+        let resultado = 1;
+        for (let i = 1; i <= n; i++) {
+            resultado *= i;
+        }
+        return resultado;
+    }
+};
+
+
+const numero = 5;
+console.log("O fatorial de " + numero + " é: " + calculaFatorial(numero));
+
+//questão 23 veirificar numero primo ou não 
+// let numero = parseInt(prompt("Digite um número inteiro positivo:"));
+// let primo = true;
+
+// if (numero < 2) {
+//     primo = false;
+// } else {
+//     for (let i = 2; i <= Math.sqrt(numero); i++) {
+//         if (numero % i === 0) {
+//             primo = false;
+//             break;
+//         }
+//     }
+// }
+// if (primo) {
+//     console.log(`${numero} é primo.`);
+// } else {
+//     console.log(`${numero} não é primo.`);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
